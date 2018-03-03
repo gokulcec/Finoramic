@@ -1,4 +1,3 @@
-############################# best solution###################################
 class Solution:
     # @param x : integer
     # @param n : integer
