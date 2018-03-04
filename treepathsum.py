@@ -17,7 +17,7 @@ class Tree:
 				return 
 
 			else:
-				if root.left is None and root.left is None:
+				if root.left is None and root.right is None:
 					if root.val == tempsum:
 						result.append(temp+[root.val])
 						return
