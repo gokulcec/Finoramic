@@ -8,7 +8,7 @@ with open("depends.json") as fd:
 	lst = []
 	for Module  in data ['Dependencies']:
 		try :
-			subprocess.check_call('sudo pip install ' + Module, shell = True)
+			subprocess.check_call('pip install ' + Module, shell = True)
 		except subprocess.CalledProcessError :
  			lst.append(Module)
 
